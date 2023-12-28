@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - david-morales-norato
+  - hdspgroup
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - hdspgroup/CubeSat-Compact-Camera  
+  - David-Morales-Norato/DavidMN_code_undergrad_thesis
