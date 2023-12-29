@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='http://hdspgroup.com/'>HDSP, Universidad Industrial de Santander</a>.
 
