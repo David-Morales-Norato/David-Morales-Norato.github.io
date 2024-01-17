@@ -15,7 +15,7 @@
  
   </div>
   <div>
-    <img class="img-fluid mr-3" src="{{ entry.key | prepend: '/assets/img/thumbs/' | relative_url }}" alt="Not aviable">
+    <img class="img-fluid mr-3" src="{{ entry.key | prepend: '/assets/img/thumbs/' | relative_url }}" alt="Not aviable" onerror="this.src='/assets/img/thumbs/no_image.png'" >
   </div>
   </div>
 
