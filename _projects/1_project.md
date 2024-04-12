@@ -17,10 +17,6 @@ Make your photos 1/3, 2/3, or full width.
 
 This is a simple image comparison slider. It uses the [img-comparison-slider](https://img-comparison-slider.sneas.io/) library. Check the [examples page](https://img-comparison-slider.sneas.io/examples.html) for more information of what you can achieve with it.
 
-<img-comparison-slider>
-  {% include figure.liquid path="assets\img\1.jpg" class="img-fluid rounded z-depth-1" slot="first" %}
-  {% include figure.liquid path="assets\img\6.jpg" class="img-fluid rounded z-depth-1" slot="second" %}
-</img-comparison-slider>
 
 
 
