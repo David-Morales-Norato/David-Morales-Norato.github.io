@@ -17,5 +17,5 @@ related_publications: cosi_shiftvariant
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Coming soon upon publication
 </div>
