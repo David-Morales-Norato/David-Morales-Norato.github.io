@@ -2,7 +2,8 @@ github_users:
   - david-morales-norato
 
 github_repos:
+  - David-Morales-Norato/Agent-Chef-Assistant 
+  - David-Morales-Norato/Retail-Salesman-Agent
   - pycolibri/pycolibri
   - hdspgroup/CubeSat-Compact-Camera  
-  - David-Morales-Norato/DavidMN_code_undergrad_thesis
   - David-Morales-Norato/GSoC_Evaluation_exercise
