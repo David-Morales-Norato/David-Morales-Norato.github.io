@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='http://hdspgroup.com/'>HDSP, Universidad Industrial de Santander</a>.
+subtitle: High performer machine learning engineer.
 
 profile:
   align: right
