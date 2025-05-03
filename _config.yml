@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: David
 middle_name: 
 last_name: Morales-Norato
-email: david2170102@correo.uis.edu.co
+email: d.s.norato@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   David Morales Norato main page. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >

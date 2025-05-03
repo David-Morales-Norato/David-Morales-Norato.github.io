@@ -58,20 +58,43 @@ layout: default
           <!-- Google Calendar Appointment Scheduling begin -->
           <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
           <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+          
+          <div style="text-align: center; margin: 40px 0;">
+            <h2 style="font-family: sans-serif; margin-bottom: 20px;">Feel free to schedule a meeting!</h2>
+            <p style="margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto;">
+              You're welcome to schedule a meeting if you'd like to connect. I'm happy to talk about networking,
+              new projects, feedback, or anything else you'd like to discuss.
+            </p>
+            
+            <div style="display: flex; justify-content: center; gap: 30px;">
+              <div id="calendar-button-15min" style="border: 2px solid #000; border-radius: 15px; padding: 10px 20px;"></div>
+              <div id="calendar-button-1h" style="border: 2px solid #000; border-radius: 15px; padding: 10px 20px;"></div>
+            </div>
+          </div>
+
           <script>
           (function() {
-            var target = document.currentScript;
             window.addEventListener('load', function() {
+              // 15 min meetings button
+              calendar.schedulingButton.load({
+                url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3XeG3e7DzgVniHhuW9iI6-qwnSY-GjTfYG5YCt8eqbfiePKDtJKejvO8QAqNMWEJt94rNxs2WV?gv=true',
+                color: '#039BE5',
+                label: "15 min meetings",
+                target: document.getElementById('calendar-button-15min'),
+              });
+              
+              // 1h meetings button
               calendar.schedulingButton.load({
                 url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3P2Tr18z7xzSohNTa7Jd5hj145pY3hm0rn88g56QccnXjV2hdTHhEJNaChbrG5F1zv8RNosCLH?gv=true',
                 color: '#039BE5',
-                label: 'Book an appointment',
-                target,
+                label: '1h meetings',
+                target: document.getElementById('calendar-button-1h'),
               });
             });
           })();
           </script>
           <!-- end Google Calendar Appointment Scheduling -->
+
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
